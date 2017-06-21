@@ -12,9 +12,9 @@ Structural
 
 - **Adapter**
 - Composite
-- Proxy
-- Flyweight
-- Facade
+- **Proxy**
+- **Flyweight**
+- **Facade**
 - Bridge
 - Decorator
 
