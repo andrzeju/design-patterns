@@ -16,7 +16,7 @@ Structural
 - **Flyweight**
 - **Facade**
 - Bridge
-- Decorator
+- **Decorator**
 
 Behavioral
 
