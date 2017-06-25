@@ -24,7 +24,7 @@ Behavioral
 - Mediator
 - Chain of Responsibility
 - Observer
-- Strategy
+- **Strategy**
 - Command
 - State
 - Visitor
