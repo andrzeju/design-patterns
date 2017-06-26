@@ -6,7 +6,7 @@ Creational
 - Factory
 - Abstract Factory
 - Builder
-- Prototype
+- **Prototype**
 
 Structural
 
