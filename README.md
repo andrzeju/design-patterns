@@ -3,9 +3,9 @@
 Creational
 
 - Singleton
-- Factory
+- **Factory**
 - Abstract Factory
-- Builder
+- **Builder**
 - **Prototype**
 
 Structural
