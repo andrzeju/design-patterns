@@ -9,6 +9,9 @@ public class FactoryClient {
         System.out.println(beer.getName());
 
         Alcohol vodka = AlcoholFactory.create("strong");
+
         System.out.println(vodka.getName());
+
+
     }
 }
