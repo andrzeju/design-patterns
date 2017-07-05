@@ -22,7 +22,7 @@ Behavioral
 
 - Template Method
 - Mediator
-- Chain of Responsibility
+- **Chain of Responsibility**
 - Observer
 - **Strategy**
 - Command
