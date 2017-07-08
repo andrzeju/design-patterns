@@ -11,7 +11,7 @@ Creational
 Structural
 
 - **Adapter**
-- Composite
+- **Composite**
 - **Proxy**
 - **Flyweight**
 - **Facade**
