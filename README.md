@@ -20,7 +20,7 @@ Structural
 
 Behavioral
 
-- Template Method
+- **Template Method**
 - Mediator
 - **Chain of Responsibility**
 - Observer
