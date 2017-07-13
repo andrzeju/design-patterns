@@ -1,6 +1,7 @@
 package pl.urbanlab.patterns.behavioral.command;
 
 import java.util.List;
+import java.util.Optional;
 
 /**
  * Created by andrzej on 13.07.17.
@@ -20,11 +21,9 @@ public class DeleteCommand implements ActionCommand {
     }
 
     @Override
-    public void execute() {
+    public Optional<ActionCommand> execute() {
         list.remove(deleted);
+        return Optional.of(undeleteCommand);
     }
 
-    public ActionCommand getUndeleteCommand() {
-        return undeleteCommand;
-    }
 }

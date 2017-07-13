@@ -1,6 +1,7 @@
 package pl.urbanlab.patterns.behavioral.command;
 
 import java.util.List;
+import java.util.Optional;
 
 /**
  * Created by andrzej on 13.07.17.
@@ -17,7 +18,8 @@ public class UndoDeleteCommand implements ActionCommand {
     }
 
     @Override
-    public void execute() {
+    public Optional<ActionCommand> execute() {
         list.add(index, deleted);
+        return Optional.empty();
     }
 }
