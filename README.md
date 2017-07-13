@@ -25,7 +25,7 @@ Behavioral
 - **Chain of Responsibility**
 - Observer
 - **Strategy**
-- Command
+- **Command**
 - State
 - Visitor
 - Interpreter
