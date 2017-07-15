@@ -26,7 +26,7 @@ Behavioral
 - Observer
 - **Strategy**
 - **Command**
-- State
+- **State**
 - Visitor
 - Interpreter
 - Iterator
