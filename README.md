@@ -4,7 +4,7 @@ Creational
 
 - Singleton
 - **Factory**
-- Abstract Factory
+- **Abstract Factory**
 - **Builder**
 - **Prototype**
 
