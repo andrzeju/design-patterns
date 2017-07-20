@@ -1,4 +1,4 @@
-#design-patterns
+A set of chosen design patterns implementations
 
 Creational
 
