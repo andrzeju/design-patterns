@@ -1,4 +1,4 @@
-package pl.urbanlab.patterns.creational.builder;
+package pl.urbanlab.patterns.creational.builder.article;
 
 /**
  * Created by andrzej on 29.06.17.
