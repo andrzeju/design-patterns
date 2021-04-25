@@ -1,9 +1,9 @@
-package pl.urbanlab.patterns.creational.factory.aviation;
+package pl.urbanlab.patterns.creational.abstractFactory.aviation;
 
-import pl.urbanlab.patterns.creational.factory.aviation.factory.CivilHelicopterFactory;
-import pl.urbanlab.patterns.creational.factory.aviation.factory.HelicopterFactory;
-import pl.urbanlab.patterns.creational.factory.aviation.factory.MilitaryHelicopterFactory;
-import pl.urbanlab.patterns.creational.factory.aviation.model.Helicopter;
+import pl.urbanlab.patterns.creational.abstractFactory.aviation.factory.CivilHelicopterFactory;
+import pl.urbanlab.patterns.creational.abstractFactory.aviation.factory.HelicopterFactory;
+import pl.urbanlab.patterns.creational.abstractFactory.aviation.factory.MilitaryHelicopterFactory;
+import pl.urbanlab.patterns.creational.abstractFactory.aviation.model.Helicopter;
 
 public class HelicopterFactoryClient {
 

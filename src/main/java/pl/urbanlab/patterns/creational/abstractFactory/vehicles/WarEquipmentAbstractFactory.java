@@ -1,4 +1,4 @@
-package pl.urbanlab.patterns.creational.abstractFactory;
+package pl.urbanlab.patterns.creational.abstractFactory.vehicles;
 
 public class WarEquipmentAbstractFactory {
 

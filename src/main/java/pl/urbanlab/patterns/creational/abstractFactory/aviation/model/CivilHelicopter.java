@@ -1,4 +1,4 @@
-package pl.urbanlab.patterns.creational.factory.aviation.model;
+package pl.urbanlab.patterns.creational.abstractFactory.aviation.model;
 
 public class CivilHelicopter extends Helicopter {
 
