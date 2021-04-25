@@ -1,4 +1,4 @@
-package pl.urbanlab.patterns.creational.factory.aviation;
+package pl.urbanlab.patterns.creational.factory.aviation.model;
 
 public class MilitaryHelicopter extends Helicopter {
 

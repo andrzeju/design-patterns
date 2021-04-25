@@ -1,5 +1,10 @@
 package pl.urbanlab.patterns.creational.factory.aviation;
 
+import pl.urbanlab.patterns.creational.factory.aviation.factory.CivilHelicopterFactory;
+import pl.urbanlab.patterns.creational.factory.aviation.factory.HelicopterFactory;
+import pl.urbanlab.patterns.creational.factory.aviation.factory.MilitaryHelicopterFactory;
+import pl.urbanlab.patterns.creational.factory.aviation.model.Helicopter;
+
 public class HelicopterFactoryClient {
 
     public static void main(String[] args) {
