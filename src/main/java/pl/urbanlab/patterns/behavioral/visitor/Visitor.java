@@ -10,5 +10,5 @@ public interface Visitor {
 
     String visitComponentList(ComponentList componentList);
 
-    void exportAll(List<Document> documents);
+    void xlmPrintAll(List<Document> documents);
 }

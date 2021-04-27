@@ -12,9 +12,9 @@ public class VisitorClient {
 
         List<Document> documents = List.of(report, spec, components);
 
-        Visitor visitor = new XlsExportDocumentVisitor();
+        Visitor visitor = new XmlExportDocumentVisitor();
 
-        visitor.exportAll(documents);
+        visitor.xlmPrintAll(documents);
 
     }
 }
