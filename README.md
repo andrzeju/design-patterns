@@ -27,7 +27,7 @@ Behavioral
 - **Strategy**
 - **Command**
 - **State**
-- Visitor
+- **Visitor**
 - Interpreter
 - Iterator
 - **Memento**
