@@ -8,7 +8,7 @@ import java.util.Map;
  */
 public class ArticleReactionFactory {
 
-        private static Map<String, ArticleReaction> reactions = new HashMap<String, ArticleReaction>();
+        private final static Map<String, ArticleReaction> reactions = new HashMap<>();
 
         public static ArticleReaction getReaction(String reaction) {
             return reactions.computeIfAbsent(reaction, newReaction -> new ArticleReaction(reaction));
