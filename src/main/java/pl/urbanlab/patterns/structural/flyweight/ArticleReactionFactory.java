@@ -11,12 +11,7 @@ public class ArticleReactionFactory {
         private static Map<String, ArticleReaction> reactions = new HashMap<String, ArticleReaction>();
 
         public static ArticleReaction getReaction(String reaction) {
-            ArticleReaction result = reactions.get(reaction);
-            if (result == null) {
-                result = new ArticleReaction(reaction);
-                reactions.put(reaction, result);
-            }
-            return result;
+            return reactions.computeIfAbsent(reaction, newReaction -> new ArticleReaction(reaction));
         }
 
         public static int getObjectsCount() {
