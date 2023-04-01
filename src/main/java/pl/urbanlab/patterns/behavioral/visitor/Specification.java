@@ -6,7 +6,6 @@ public class Specification implements Document {
     private String engineModel;
 
     public Specification(String name, String engineModel) {
-
         this.name = name;
         this.engineModel = engineModel;
     }

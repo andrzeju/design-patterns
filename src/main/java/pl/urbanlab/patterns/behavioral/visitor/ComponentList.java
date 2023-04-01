@@ -6,7 +6,6 @@ public class ComponentList implements Document {
     private int partsAmount;
 
     public ComponentList(String name, int partsAmount) {
-
         this.name = name;
         this.partsAmount = partsAmount;
     }

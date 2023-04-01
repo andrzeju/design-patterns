@@ -6,7 +6,6 @@ public class Report implements Document {
     private int reportNo;
 
     public Report(String name, int reportNo) {
-
         this.name = name;
         this.reportNo = reportNo;
     }
